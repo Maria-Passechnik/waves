@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, rgb(21, 8, 66) 3%, rgb(0, 0, 0) 63%, rgb(0, 0, 0) 99%);
+    background-attachment: fixed;
+}
+
+h1, h2, h3{
+    color: whitesmoke;
+}
+
+.App {
+    transition: all 0.5s ease;
+}
+
+.library-active {
+    margin-left: 20%
+}
+
+@import './player';
+@import './song';
+@import './library';
+@import './nav';

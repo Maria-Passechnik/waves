@@ -1,0 +1,44 @@
+body {
+    color: whitesmoke;
+}
+
+.player-container {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-control {
+    width: 50%;
+    display: flex;
+    input {
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+    p {
+        padding: 2rem 0.5rem;
+    }
+}
+
+.play-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+    svg {
+        cursor: pointer;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .time-control {
+        width: 90%;
+    }
+    .play-control {
+        width: 60%;
+    }
+}

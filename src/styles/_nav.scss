@@ -1,0 +1,19 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .btn {
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    nav {
+        button {
+            z-index: 10;
+        }
+    }
+}
