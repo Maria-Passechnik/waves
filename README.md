@@ -1,4 +1,7 @@
-# Waves - Music Player
+# Waves - Music Player 
+## Built with ReactJS 
+## Designed with Sass & Font Awesome
+## External: Chillhop API
 
 * Clone this repo
 
